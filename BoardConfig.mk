@@ -1,6 +1,7 @@
 # Copyright 2019 The Android Open Source Project
 # Copyright 2019 Paranoid Android
 # Copyright 2021 The LineageOS Project
+# Copyright 2020-2022 The OctaviOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.

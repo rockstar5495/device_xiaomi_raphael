@@ -18,6 +18,8 @@ $(call inherit-product, device/xiaomi/raphael/device.mk)
 # Inherit some common OctaviOS configurations.
 $(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 
+# Bootanimation Res
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := octavi_raphael

@@ -21,6 +21,10 @@ $(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 # Bootanimation Res
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Octavi
+OCTAVI_BUILD_TYPE := Official
+OCTAVI_MAINTAINER := Pratyaksh.Bharadwaj
+ 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := octavi_raphael
 PRODUCT_DEVICE := raphael

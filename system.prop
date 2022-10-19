@@ -118,3 +118,9 @@ ro.vendor.qti.va_aosp.support=1
 
 # WiFi
 config.disable_rtt=true
+
+# Octavi
+PRODUCT_PRODUCT_PROPERTIES += \
+ro.octavi.status=Official
+ro.octavi.branding.version=4.0
+ro.octavi.maintainer=Pratyaksh.Bharadwaj

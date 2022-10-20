@@ -101,6 +101,11 @@ ODM_MANIFEST_FILES += \
 ODM_MANIFEST_SKUS += raphael
 ODM_MANIFEST_RAPHAEL_FILES := $(DEVICE_PATH)/vintf/manifest_nfc.xml
 
+# HALS
+SRC_AUDIO_HAL_DIR := hardware/qcom-caf/sm8150/audio
+SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/sm8150/display
+SRC_MEDIA_HAL_DIR := hardware/qcom-caf/sm8150/media
+
 # Kernel
 BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200n8 earlycon=msm_geni_serial,0xa90000
 BOARD_KERNEL_CMDLINE += androidboot.hardware=qcom androidboot.console=ttyMSM0

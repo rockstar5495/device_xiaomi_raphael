@@ -35,7 +35,8 @@ $(call inherit-product, vendor/xiaomi/raphael/raphael-vendor.mk)
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    hardware/qcom-caf/sm8150
 
 # Hardware
 PRODUCT_COPY_FILES += \

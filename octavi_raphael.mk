@@ -16,16 +16,17 @@
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
 # Inherit some common ProjectBlaze stuff.
-$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
+$(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 
-# UDFPS animations
-EXTRA_UDFPS_ANIMATIONS := true
-
-# Bootanimation Resolution
+# Octavi Stuffs
+OCTAVI_BUILD_TYPE := OFFICIAL
+OCTAVI_MAINTAINER := Pratyaksh.Bharadwaj
+WITH_GAPPS := true
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := blaze_raphael
+PRODUCT_NAME := octavi_raphael
 PRODUCT_DEVICE := raphael
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi K20 Pro

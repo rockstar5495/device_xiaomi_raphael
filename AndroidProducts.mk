@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_raphael.mk
+    $(LOCAL_DIR)/octavi_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    blaze_raphael-user \
-    blaze_raphael-userdebug \
-    blaze_raphael-eng
+    octavi_raphael-user \
+    octavi_raphael-userdebug \
+    octavi_raphael-eng
